@@ -48,8 +48,7 @@ class ContactListViewController: UITableViewController {
 //extension ContactListViewController: UITabBarControllerDelegate {
 //    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
 //        guard let detailedList = tabBarController.viewControllers?.last as? DetailedListViewController else { return false }
-//        detailedList.personList = personList
+//        detailedList.personsList = personsList
 //        return true
 //    }
-//
 //}
